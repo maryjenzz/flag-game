@@ -2,7 +2,7 @@
     border: 1px solid #1e1e1e;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 0 20px 2px cyan;
+    box-shadow: 0 0 20px 2px #6c5ce7;
     border-radius: 8px;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .option-button:hover {
-    box-shadow: 0 0 8px 2px cyan;
+    box-shadow: 0 0 8px 2px #6c5ce7;
 }
 
 .option-button:disabled {
@@ -62,4 +62,26 @@
 .correct-option {
     background-color: #4caf50;
     font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .option-button {
+        width: 100%;
+        font-size: 1em;
+        padding: 12px;
+    }
+
+    .game-container {
+        padding: 15px;
+        width: 90%;
+        margin: 0 auto;
+        box-shadow: none;
+        border: none;
+    }
+
+    .game-title {
+        font-size: 1.2em;
+        line-height: 1.4;
+        word-wrap: break-word;
+    }
 }

@@ -3,3 +3,10 @@
     width: 256px;
     height: 192px;
 }
+
+@media screen and (max-width: 600px) {
+    .flag {
+        width: 50%;
+        height: auto;
+    }
+}
