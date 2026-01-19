@@ -20,52 +20,8 @@ O **Flag Game** consome dados de uma API externa para gerar rodadas infinitas de
       * Botão fica **Verde** se acertar.
       * Botão fica **Vermelho** se errar (e exibe a mensagem correspondente).
   * **Interface:** Tema escuro ("Dark Mode") com detalhes em ciano e layout responsivo.
+---
 
-## 🛠️ Tecnologias Utilizadas
+## 📦 Como Ver o Projeto
 
-  * **[React](https://react.dev/)** (v19) - Biblioteca para construção da interface.
-  * **[Vite](https://vitejs.dev/)** - Ferramenta de build e servidor de desenvolvimento.
-  * **CSS3** - Estilização customizada (Flexbox, variáveis, sombras).
-  * **[FlagCDN](https://flagcdn.com/)** - Fonte das imagens das bandeiras e JSON de códigos.
-
-## 📦 Como rodar o projeto
-
-Certifique-se de ter o **Node.js** instalado em sua máquina.
-
-1.  **Clone o repositório:**
-
-    ```bash
-    git clone https://github.com/seu-usuario/flag-game.git
-    cd flag-game
-    ```
-
-2.  **Instale as dependências:**
-
-    ```bash
-    npm install
-    ```
-
-3.  **Rode o servidor de desenvolvimento:**
-
-    ```bash
-    npm run dev
-    ```
-
-4.  **Acesse no navegador:**
-    Geralmente o projeto rodará em `http://localhost:5173`.
-
-## 📂 Estrutura de Arquivos Importantes
-
-  * `src/App.jsx`: Componente raiz que carrega o jogo.
-  * `src/components/Game.jsx`: Contém toda a lógica do jogo (estados, fetch da API e validação da resposta).
-  * `src/components/Flag.jsx`: Componente responsável apenas por renderizar a imagem da bandeira.
-  * `src/components/Game.css`: Estilos específicos do container do jogo e botões.
-
-## 🔧 Scripts Disponíveis
-
-No diretório do projeto, você pode rodar:
-
-  * `npm run dev`: Inicia o servidor de desenvolvimento.
-  * `npm run build`: Cria a versão de produção na pasta `dist`.
-  * `npm run lint`: Executa o ESLint para verificar erros no código.
-  * `npm run preview`: Visualiza a versão de produção localmente.
+Acesse https://maryjenzz.github.io/flag-game/
